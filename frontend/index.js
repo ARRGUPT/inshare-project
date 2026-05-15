@@ -12,7 +12,7 @@ const emailForm = document.querySelector("#email-form");
 const toast = document.querySelector(".toast");
 const maxAllowedSize = 100 * 1024 * 1024; // 100MB
 
-const host = "https://inshare-backend-sg.vercel.app";
+const host = "https://inshare-backend-brown.vercel.app";
 const uploadURL = `${host}/api/files`;
 const emailURL = `${host}/api/files/send`;
 
